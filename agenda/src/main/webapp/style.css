@@ -1,0 +1,240 @@
+@charset "utf-8";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+</style>
+:root {
+    --color-on-background: #400080 ;
+    --color-on-card: #0f2e3f;
+
+}
+body{
+	background-color: #E6E6E6;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.home-acess{
+	width:400px;
+	height: 400px;
+	
+	font-family: 'Poppins', sans-serif;
+	
+	color: #E6E6E6;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border-radius: 10px;
+
+    background: #39393A;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.button-acess{
+	text-decoration: none;
+	background-color: #E6E6E6;
+	padding: 5px 10px 5px 10px;
+	color: #39393A;
+	font-weight: 700;
+	border-radius: 0.5em;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	
+}
+.button-acess:hover{
+	box-shadow: 0px 0px 12px 0px white;
+	
+	cursor: pointer;
+	transform: translateY(-2px);    
+    transition: 0.1s;
+    
+    background-color: #85FFC7;
+	font-weight: 700;
+}
+
+.box1{
+	width:320px;
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+.contact-add-form{
+	font-family: 'Poppins', sans-serif;
+	
+	color: #E6E6E6;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+
+    background: #39393A;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+}
+
+.tabela{
+	margin-top:30px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.tabela th{
+	padding: 10px;
+	background-color: #E6E6E6;
+
+	color: #39393A;
+	text-align: left;
+}
+.tabela th:nth-child(1){
+	border-radius: 25px 0px 0px 0px;
+}
+.tabela th:nth-child(5){
+	border-radius: 0px 25px 0px 0px;
+}
+.tabela td{
+	border: 1px solid black;
+	padding: 5px;
+
+	color: #39393A;
+	background-color: #E6E6E6;
+	text-align: left;
+}
+
+#box3{
+	width:50px;
+	padding:5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0080;
+}
+.button2{
+	text-decoration: none;
+	background-color: #C1292E;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 0.5em;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	
+}
+#agenda{
+	font-family: 'Poppins', sans-serif;
+	
+	color: #E6E6E6;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 70%;
+    
+    background: #39393A;
+	
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius: 50px 50px 0px 0px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+}
+.button-new-contact{
+	text-decoration: none;
+	background-color: #85FFC7;
+	color: #39393A;
+	padding: 5px 5px 5px 5px;
+	
+	font-weight: 400;
+	border-radius: 2px;
+
+	border: 0;
+	
+}
+.button-new-contact:hover{
+	cursor: pointer;
+}
+.button-white-generics{
+	text-decoration: none;
+	background-color: #E6E6E6;
+	color: #39393A;
+	padding: 5px 5px 5px 5px;
+	
+	font-weight: 400;
+	border-radius: 2px;
+
+	border: 0;
+}
+.button-white-generics:hover{
+	cursor: pointer;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+	
+	.home-acess{
+		margin-top: 3vh;
+		width: 90%;
+		height: 80vh;
+		font-size: 40px;
+	}
+	
+	#agenda{
+		margin-top: 3vh;
+		width: 95%;
+		font-size: 25px;
+	}
+	
+	#agenda img{
+		width: 50%;
+	}
+	
+
+	.contact-add-form{
+		margin-top: 5vh;
+		width: 90%;
+		height: 80vh;
+		font-size: 40px;
+	}
+	input{
+		width: 100%;
+		height:130px;
+		font-size: 40px;
+		margin-top: 10px;
+	}
+	.box1{
+		width: 800px;
+		height:130px;
+		font-size: 40px;
+	}
+	.homepage-icon{
+	width: 30%;
+	}
+
+	
+	.tabela{width: 95%;}
+	.tabela tbody tr td:nth-child(1){width: 10%;}
+	.tabela tbody tr td:nth-child(2){width: 335%;}
+	.tabela tbody tr td:nth-child(3){width: 20%;}
+	.tabela tbody tr td:nth-child(4){width: 45%;}
+}
+	
