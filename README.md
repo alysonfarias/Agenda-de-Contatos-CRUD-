@@ -10,3 +10,5 @@ $ git clone https://github.com/alysonfarias/Agenda-de-Contatos-CRUD-
 + [Kit Java Desenvolvimento](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html)
 + Um ambiente de desenvolvimento integrado, nesse projeto usei o [Eclipse IDE 2021‑03](https://www.eclipse.org/downloads/)
 
+Após ter clonado o repositorio, e ter todas aplicações necessárias instaladas 
+[insira sua senha do banco de dados aqui](https://github.com/alysonfarias/Agenda-de-Contatos-CRUD-/blob/40e057ec58a539bb4cf2cb501ab3dec8aa805765/agenda/src/main/java/model/DAO.java#L26)
